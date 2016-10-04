@@ -9,7 +9,7 @@ Pebble.addEventListener("ready", function() {
 
 Pebble.addEventListener("showConfiguration", function() {
   console.log("showing configuration");
-  Pebble.openURL('https://dl.dropboxusercontent.com/u/24424405/app/Pebble/Mondaine/1.2/configuration.html?configs=' + encodeURIComponent(JSON.stringify(configs)));
+  Pebble.openURL('https://sillyleo.github.io/SwissSquare/index.html?configs=' + encodeURIComponent(JSON.stringify(configs)));
 });
 
 Pebble.addEventListener("webviewclosed", function(e) {
